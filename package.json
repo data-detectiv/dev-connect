@@ -1,0 +1,18 @@
+{
+  "name": "dev-connect",
+  "version": "1.0.0",
+  "description": "DevConnect is a backend-first application designed to manage a developer’s online portfolio and professional presence. Think of it as the backend engine behind a custom version of LinkedIn or Dev.to",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
